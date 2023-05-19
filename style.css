@@ -5,6 +5,9 @@
     background-color: #FAE3E3;
     font-family: 'Bebas Neue';
 }
+.colorcitoNav:hover{
+    color: #856084;
+}
 body{
     font-family:'Bebas Neue', cursive;
     text-align: center;
@@ -25,7 +28,7 @@ button:hover{
     color: #856084;
 }
 footer{
-    margin-top: 14%;
+    margin-top: 10%;
     width: 100%;
     padding: 50px 1%;
     background: #856084;
@@ -79,4 +82,23 @@ input{
     width: 100%;
     height: 200px;
     background-color: #ffff;
+}
+.cuadrado {
+    width: 150px;           
+    height: 150px;          
+    background: #ffff;       
+    border: 1px solid #000;
+    border-radius: 80px;
+    border: none;
+}
+#coloresDeEstaciones {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    border: none;
+}
+.claseInput{
+    display: flex;
+    justify-content: center;
+    border: none;
 }
