@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <!-- iconos -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Tienda</title>
+</head>
+<body>
+    <header class="header-tienda">
+        <nav class="container nav-tienda">
+            <a href="" class="logo">Tienda</a>
+            <!-- iconos -->
+            <i class='bx bx-shopping-bag' id="cart-icon" data-quantitiy="0"></i>
+            <!-- cart -->
+            <div class="carrito">
+                <h2 class="carrito-title">Tu carrito</h2>
+            <!-- contenido -->
+            <div class="carrito-contenido"></div>
+            <div class="cart-box">
+                <img src="../img/tabletaProductoUno.jpg" alt="" class="img-prod">
+                    <div class="detail-box">
+                        <div class="carrito-producto-titulo">Productos</div>
+                            <div class="carrito-precio">$50</div>
+                            <input 
+                            type="number" 
+                            name="" 
+                            id="" 
+                            value="1" 
+                            class="cart-quantity"
+                            />
+                    </div>
+                    <!-- eliminar item -->
+                    <i class='bx bxs-trash carrito-eliminado'></i>
+                </div>
+            <!-- total -->
+            <div class="total">
+                <div class="total-titulo">Total</div>
+                <div class="total-precio">$0</div>
+            </div>
+            <!-- boton comprar -->
+            <button type="button" class="boton-comprar">Comprar ahora</button>
+            <i class='bx bx-x' id="cerrar-carrito"></i>
+            </div>
+        </nav>
+    </header>
+    <!-- productos -->
+    <section class="tienda container">
+        <h2 class="section-titulo">Productos</h2>
+        <!-- contenido de la tienda -->
+        <div class="tienda-contenido">
+            <!-- caja 1 -->
+           <div class="caja-producto">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4wJg3U-bI_NNyG1yytbbXuQbq8ohmMZJPHuFUgm6Ow2vL-maRrL0Xdat24ORe5tMcH4cFxxFvYB3ELu6OMMIi5WKx6WBGWGwFxZGnLF-aVL7ha_wV1hcTDwsAXT8mGEQdtZsOv6EfcOMlvJ9P5zlV7CH029IPqbehVfCo8m9nwZTj6E_KwrLRsNx8Fw/w320-h158/tabletaProductoUno.jpg" 
+            alt=""
+            class="producto-img"
+            />
+            <h2 class="producto-titulo">Tableta Gráfica Xp-pen Deco Mini7w</h2>
+            <span class="precio">$32.899</span>
+            <i class='bx bx-shopping-bag agregar-carrito'></i>
+           </div>
+           <!-- caja 2 -->
+           <div class="caja-producto">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhG7z1XlgwqkPKYRduBFhZqWgRsBs_T72XVOWJGvuVjebujy6yJS7thvwntI02lg_UJQxGDqv2AhYHB8bAroUJ3AxeYKXs_jveZez7SXO3w52iGHNWNt-s-eOZzuxOQA2srTN4XFSnFOMVWLvhlITDPlpXmb1LvKbG4KUqu0BicR7ZIv4VANYvYiXcIRw/s320/tabletaProductoTres.jpg" 
+            alt=""
+            class="producto-img"
+            />
+            <h2 class="producto-titulo">Tableta Gráfica Xp-pen Deco Pro Small</h2>
+            <span class="precio">$39.199</span>
+            <i class='bx bx-shopping-bag agregar-carrito'></i>
+           </div> 
+           <!-- caja 3 -->
+           <div class="caja-producto">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhWNMqEa8MbCm-Ym1aBb4fuY99iEkTvs3sqV6_OvDzDMp_ot6JdoyO2Z9M02X5ZkmM8u3UfeBAnI9EEBGPggKB4doeo5ytol9eB71_5PdB1nqXyRx_QoJAR_Iqu-u3ub3LnKR-F5VP0OJkgAh3N4m5S_4yHVYXhSpqt1osepHK7ZMVbLWjj0kCuXPLrNQ/s320/tabletaProductoDos.jpg" 
+            alt=""
+            class="producto-img"
+            />
+            <h2 class="producto-titulo">Tableta Gráfica Xp-pen Deco 03 Digitalizadora</h2>
+            <span class="precio">$41.599</span>
+            <i class='bx bx-shopping-bag agregar-carrito'></i>
+           </div> 
+           <!-- caja 4 -->
+           <div class="caja-producto">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiN9mDjxMXgYN8QXjU_YGOsf-_L5Ytj3mYyMAzYPbEZgs4HCkoQ3hw95Aaji27C9AhuxOssJAr2s8GUV6sWEuaGEhIkDU8NTBBA7qnCUIaejdYtQjm5JkaVoKU3WouhSONMz5jXe0nnhMscT-ElHvXZSdDrFzcDSRGqaJwN93CLQ0eZSYbr9D5M8RrEVg/s320/mouseProductoCuatro.jpg" 
+            alt=""
+            class="producto-img"
+            />
+            <h2 class="producto-titulo">Mouse Logitech G203</h2>
+            <span class="precio">$12.999</span>
+            <i class='bx bx-shopping-bag agregar-carrito'></i>
+           </div> 
+           <!-- caja 5 -->
+           <div class="caja-producto">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhoJWpNRW0_1aVlWvsaPn8pFEYUlwhYDHx49bKnFsfKiRNmYhtEqgJoGalEgEehTJDTJgzrbbASxxPgXz9x9b2XIYI6KfzgxyqYlGI4_NLIx483zzJD-jGHJnN2WvylopEFYjJH-YhnVHQ6wp7PNVNZHSP3DM1WkPjv5jGOSSsciTOkSqhTWP5h51rvoQ/s320/mouseProductoCinco.jpg" 
+            alt=""
+            class="producto-img"
+            />
+            <h2 class="producto-titulo">Mouse Gamer Redragon Storm</h2>
+            <span class="precio">$14.8999</span>
+            <i class='bx bx-shopping-bag agregar-carrito'></i>
+           </div> 
+           <!-- caja 6 -->
+           <div class="caja-producto">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMGy3CKCrnMo2oxPle75iWj7qvfn0JDRTB9b04dNQdcdH2t1jwuFI0amYMZPVS_Xt2e5GGvdBPsnEoNtb_1ocFzg0bMyVCh34bo-bCAKxrfA2P8nPX72LZE1NxfhAZ0jjVG-lxwoRhPiI7CrIU8UdK3oXycOcOTfDPYo95jkhaYaa5YliChQ0r6EzAXw/s320/mouseProductoSeis.jpg" 
+            alt=""
+            class="producto-img"
+            />
+            <h2 class="producto-titulo">Mouse Gamer Vsg Aquila</h2>
+            <span class="precio">$11.999</span>
+            <i class='bx bx-shopping-bag agregar-carrito'></i>
+           </div> 
+           <!-- caja 7 -->
+           <div class="caja-producto">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdbOU0Yp2fC_vz9TJgkHfxnneJMSobRhLRCAtrR8KcF6x7Jyt-v3UMPQbEhsHuzwWgED-be4pShBWVUqTYqvQ9bhjdS-7NkyPxBB4LHS3_hzcm_ed_ciSflyZtyflRZM4aAQLjvWMxXiyPDfmrWJAfLhq9PTt3e3LOehhhrpPrKRN1TjTRdEU7RdqarA/s320/auricularesProductoSiete.jpg" 
+            alt=""
+            class="producto-img"
+            />
+            <h2 class="producto-titulo">Auriculares Bluetooth Haylou</h2>
+            <span class="precio">$12.999</span>
+            <i class='bx bx-shopping-bag agregar-carrito'></i>
+           </div> 
+           <!-- caja 8 -->
+           <div class="caja-producto">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgi2_-VdLsoLyfLaBYLxGagfxEH600RXMQ9bARc0OocdM59k_HLEgqGEtWJdt2aglV3LgeF9YSW0hpoMgpB2iBzVS5U_NlyMxveK0UkcjhE-FEQM6EabMDj5RZWfB3mjrcLmjRCly-_R2vo9_gaXTHka0G9ikB682-s8rPxWJ89iL6ao6dFwmcNmjH_wg/s320/auricularesProductoOcho.jpg" 
+            alt=""
+            class="producto-img"
+            />
+            <h2 class="producto-titulo">Auriculares Bluetooth Hbl Tech</h2>
+            <span class="precio">$5.399</span>
+            <i class='bx bx-shopping-bag agregar-carrito'></i>
+           </div> 
+        </div>
+    </section>
+    <!-- link javascript -->
+    <script src="../js/tienda.js"></script>
+</body>
+</html>
