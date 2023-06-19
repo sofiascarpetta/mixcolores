@@ -296,9 +296,11 @@ img{
     font-weight: 600;
     text-transform: uppercase;
     margin-bottom: 0.8rem;
+    background-color: transparent;
 }
 .precio{
     font-weight: 500;
+    background-color: transparent;
 }
 .agregar-carrito{
     position: absolute;

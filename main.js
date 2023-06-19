@@ -1,6 +1,4 @@
-let nombre = prompt("Por favor, ingresa tu nombre");
-let mensaje = "Bienvenidx, " + nombre + " disfruta de tus nuevos colores";
-alert(mensaje);
+
 
 function mezclar() {
     // parseInt(Rojo1, 16);
@@ -74,38 +72,6 @@ function agregarColores(colores){
   `;
 }
 
-//function filterItems(query) {
-//return fruits.filter(function(el)
-//words.filter(word => word.length > 6)
-//let buscarTiposDeColores = ['otoño', 'invierno', 'verano', 'primavera'];
-//let resultadoDeBusqueda = buscarTiposDeColores.filter(buscarTiposDeColores => buscarTiposDeColores ===);
-//console.log(resultadoDeBusqueda)
- 
-
-
-
-//for (let item of buscarTiposDeColores){
-//console.log(item.BuscarTiposDeColores)
-
-
-
-
-
-
-//   let miColor = extraerColor("#FF5733");
-//   console.log(miColor); 
-
-// function obtenerRojo(color) {
-//     return `${color[1]}${color[2]}`;
-// }
-
-// function obtenerVerde(color) {
-//     return `${color[3]}${color[4]}`;
-// }
-
-// function obtenerAzul(color) {
-//     return `${color[5]}${color[6]}`;
-// }
 
 
 

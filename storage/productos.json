@@ -1,0 +1,61 @@
+{
+    "productos": [
+      {
+        "id": 1,
+        "nombre": "Tableta Gráfica XP-PEN Deco MINI7W",
+        "descripcion": "Esta es la descripción del producto 1",
+        "precio": "$15.299",
+        "imagen": "https://blogger.googleusercontent.com/img/a/AVvXsEg0BDzTvA_lqLXvt3XRkFxeOWUEoD1TTBH9q2GRRcBhpbZnBZRKb2by0dbMJOjD1UnHN6tNlcN6kbhW5JdBrAJ-6VAmtiuhKdFRf1snnUJBR9s5HVmldCVigf5Bpin2MMgVULzrmqfWwpyYo5PgxNBr14PkrusddWDpJnAuFnFfTk-cqckmn2XKZ2EHug"
+      },
+      {
+        "id": 2,
+        "nombre": "Tableta Gráfica XP-PEN Deco PRO SMALL",
+        "descripcion": "Esta es la descripción del producto 2",
+        "precio": "$30.299",
+        "imagen": "https://blogger.googleusercontent.com/img/a/AVvXsEglvcfhMJgujniVUf4Sugn2orEAewrgvYzzhjUcyoIVX57eN_L383_us4qQOAoJkp9mF9K7aPiErVC92CyC4fP3sRa5e5sFF9adYQSfYxFGEUNb6uAjj6C4KuHDuPWMrHF9xF3Mk0hUR4I78Ule6SU965L23V5K4TM1kQvicWjHi2HXHKpUbltU4RvMJQ"
+      },
+      {
+        "id": 3,
+        "nombre": "Tableta Gráfica XP-PEN Deco 03 Digitalizadora",
+        "descripcion": "",
+        "precio": "$55.299",
+        "imagen": "https://blogger.googleusercontent.com/img/a/AVvXsEj5BS4yoZqBQe9yPIDkPa7UIr73XRprkUk-9laiTbD7wvcwRdIUcZamhAAEaciPFH0Ez0VH9Dxvblbp4MDSMALa69FBJHPbXaDcnJtaFtocDRFUqJWGtA2EIDDZEdoSQVFEP0qJuIKq7sN1VYkTy-qllq9_5MD-aYE0g8fLeWlxiYcP6yW6xUfRAUlknw"
+      },
+      {
+        "id": 4,
+        "nombre": "Tableta Grafica Wacom One Small",
+        "descripcion": "Tableta con lápiz sensible a la presión, inalámbrico y sin batería.CTL-472.",
+        "precio": "$78.299",
+        "imagen": "https://blogger.googleusercontent.com/img/a/AVvXsEjinlKJQfEs4D9n0Diz3laaRff1IFj6ZARfy75oqCvx_5gG7Gs6BdyvAPQ92CNpIfzmPw-HqKrqhlq8Obic0T7uEkt5LubH_CE-ZgwPPmwk65lyPfe_Vxk6kSc572bptzwvMkAFuDBt5UjcXe0-Jj3a7qEKZE7lFAXIyXzm9bSbv_Aizo0qY64iZIzzfA"
+      },
+      {
+        "id": 5,
+        "nombre": "Frunsi Standalone Drawing Tablet",
+        "descripcion": "Tablet de dibujo independiente Frunsi con pantalla, lápiz gráfico tableta Android 11.",
+        "precio": "$80.299",
+        "imagen": "https://blogger.googleusercontent.com/img/a/AVvXsEgfp9glPP_T6CQ8nMPLcqJbZYwIKn3iCtKMcnxHfAdsO_TNSETaAEgxY3GgKScNqgcxhC1PYBNz02UlDGo-s6ZSiZVhk-R8ZgZElB1_jBHpnOTacZ299dpW274g8WajFSSkBlfAxluUWZWpAuCX3XmacaN--J9S5gdc1_KYMenqNzbwoq57gGNF-rkN7A"
+      },
+      {
+        "id": 6,
+        "nombre": "Tableta Grafica De Dibujo Diseño Profesional",
+        "descripcion": "10moons G10 - Tablet de 10 x 6 pulgadas con 12 teclas Express y 10 teclas multimedia, tableta de dibujo gráfico con 8192 niveles",
+        "precio": "$150.299",
+        "imagen": "https://blogger.googleusercontent.com/img/a/AVvXsEgTKpepme3NB-omVB7lZYnApfPvVtseySlNg9-4h8hmK2leRLpbG3g5BMzn_RXK__BuFXzJbOdc9PlmmaZaWE-7becphW7TQBaOAUfU4rSAD3l3m-jazXnGjTNGK46mvV9L3fqyLXHBOekeXOGT_v4Pypmy1SiOEoecMj4PJEM4oBRJBbMkDlY7JBoOAw"
+      },
+      {
+        "id": 7,
+        "nombre": "Drawing Monitor Full-Laminated Pen Display",
+        "descripcion": "Monitor de dibujo VEIKK VK1200 11,6 pulgadas pantalla de lápiz laminado completo con batería.",
+        "precio": "$200.299",
+        "imagen": "https://blogger.googleusercontent.com/img/a/AVvXsEhhOa4bE-f9xmFAyUE6_T1Qc6MH1792jnbR_emWCr-JCNMSNRB27FrqDsVysq80pXX-K1u-xVCUtJw1yiT_xERCsoT0ow4GikKQS1hR_dHcp-ejDAwEuQeYgyiosNU9Aq6iIjBRkhoHBH-nbS6GbvGnKPalcFR4rMD1GNIXXDt5GBySbykDfdBjMiCb9Q"
+      },
+      {
+        "id": 8,
+        "nombre": " Graphics Tablet",
+        "descripcion": "Monitor gráfico para tableta tableta gráfica Xp-pen Artist 12 11,6",
+        "precio":"$250.299",
+        "imagen": "https://blogger.googleusercontent.com/img/a/AVvXsEjYu4hWY2Rmc3WMoeHy-iLRQKqMM1JiSpuVxibuCQzj2P58QrvynF5_V-JmDj18RhDu-aCSJVPIGdcjOwBJFN5XaQhLRErGK964t90l0B7PIhIbaL5R0SYhmJEN4LIm8dFwCtk0Vm4uwlPuL3_rBu6jxiX4NjN2zouOUZNp9FGsjDlR1ncXdAV1jJkIzA"
+      }
+    ]
+  }
+  
