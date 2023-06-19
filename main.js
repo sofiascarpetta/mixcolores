@@ -1,5 +1,3 @@
-
-
 function mezclar() {
     // parseInt(Rojo1, 16);
 
